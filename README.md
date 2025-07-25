@@ -75,7 +75,10 @@ Taruh **screenshot app** di folder:
 **Login**
 ![Login](screenshots/login_screen.png)
 
-**Main**
+**Register**
+![Login](screenshots/register_screen.png)
+
+**Dashboard**
 ![Main](screenshots/main_screen.png)
 
 **Detail**
@@ -86,3 +89,7 @@ Taruh **screenshot app** di folder:
 
 **Checkout**
 ![Checkout](screenshots/checkout_screen.png)
+
+**Popup Checkout**
+![Checkout](screenshots/popup_checkout.png)
+
