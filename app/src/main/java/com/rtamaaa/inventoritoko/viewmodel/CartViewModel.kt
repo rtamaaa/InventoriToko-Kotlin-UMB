@@ -15,4 +15,7 @@ class CartViewModel : ViewModel() {
     fun clearCart() {
         _cartItems.value = emptyList()
     }
+    fun onCheckout() {
+
+    }
 }

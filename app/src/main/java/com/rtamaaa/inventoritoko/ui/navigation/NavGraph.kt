@@ -6,6 +6,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.rtamaaa.inventoritoko.model.Product
+import com.rtamaaa.inventoritoko.screens.CheckoutScreen
+import com.rtamaaa.inventoritoko.screens.CartScreen
 import com.rtamaaa.inventoritoko.ui.screens.*
 import com.rtamaaa.inventoritoko.viewmodel.AuthViewModel
 import com.rtamaaa.inventoritoko.viewmodel.CartViewModel
@@ -58,5 +60,20 @@ fun NavGraph(
                 )
             }
         }
+        composable("cart") {
+            CartScreen(
+                cartViewModel = cartViewModel,
+                onCheckout = {
+                    navController.navigate("checkout")
+                }
+            )
+        }
+        composable("checkout") {
+            CheckoutScreen(
+                navController = navController,
+                cartViewModel = cartViewModel
+            )
+        }
     }
 }
+

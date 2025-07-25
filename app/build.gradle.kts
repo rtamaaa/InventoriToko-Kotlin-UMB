@@ -82,5 +82,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 
+    //image
+    implementation("io.coil-kt:coil-compose:2.4.0")
+
+
 
 }
