@@ -5,10 +5,10 @@
 **Inventori Toko** adalah aplikasi Android sederhana berbasis **Jetpack Compose** untuk mengelola data produk, melihat detail produk, dan melakukan transaksi sederhana seperti menambah ke keranjang dan checkout.
 
 ---
-###Nama: Muhammad Rizky Pratama
-###NIM: 220320008
-###Program Studi: Informatika
-###Universitas: Universitas Muhammadiyah Banten
+### Nama: Muhammad Rizky Pratama
+### NIM: 220320008
+### Program Studi: Informatika
+### Universitas: Universitas Muhammadiyah Banten
 
 
 
