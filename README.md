@@ -82,7 +82,7 @@ Taruh **screenshot app** di folder:
 ![Main](screenshots/main_screen.png)
 
 **Detail**
-![Detail](screenshots/detail_screen.png)
+![Detail](screenshots/detail_product_screen.png)
 
 **Keranjang**
 ![Cart](screenshots/cart_screen.png)
